@@ -53,7 +53,7 @@ links:
       title: "ZhgChgLi's Tech Blog"
       target: "_blank"
   - link:
-      icon: "fa-brands fa-instagram fa-medium"
+      icon: "fa-brands fa-instagram"
       text: "Instagram!"
       url: "https://www.instagram.com/sjvr50501/"
       alt: "Instagram"
