@@ -12,30 +12,30 @@ lang: "en"
 # The output of the plugin can be used below, e.g., {{vars.MediumFollowersCountPlugin}}
 plugins:
   # Automatically fetch Medium follower count
-  - MediumFollowersCountPlugin:
-      username: zhgchgli
+  # - MediumFollowersCountPlugin:
+  #     username: zhgchgli
   # Automatically fetch Github repo star count
-  - GithubRepoStarsCountPlugin:
-      - ZhgChgLi/ZMarkupParser
-      - ZhgChgLi/ZReviewTender
-      - ZhgChgLi/ZMediumToMarkdown
-      - ZhgChgLi/linkyee
+  # - GithubRepoStarsCountPlugin:
+  #     - ZhgChgLi/ZMarkupParser
+  #     - ZhgChgLi/ZReviewTender
+  #     - ZhgChgLi/ZMediumToMarkdown
+  #     - ZhgChgLi/linkyee
 
 # Google Analytics tracking id
-google_analytics_id:
+# google_analytics_id:
 
 # HTML Title
-title: "ZhgChgLi's Links"
+title: "SJVR Links"
 
 # Avatar image path
 avatar: "./images/profile.jpeg"
 
 # Name section text
-name: "@zhgchgli"
+name: "@SJVR"
 
 # Tagline section text
 tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
+    Uniting the San Juaquin Valley under one name <3
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -51,6 +51,13 @@ links:
       url: "https://blog.zhgchg.li"
       alt: "ZhgChgLi's Tech Blog"
       title: "ZhgChgLi's Tech Blog"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-instagram fa-medium"
+      text: "Instagram!"
+      url: "https://www.instagram.com/sjvr50501/"
+      alt: "Instagram"
+      title: "Instagram!"
       target: "_blank"
   - link:
       icon: "fa-brands fa-medium"
@@ -142,7 +149,7 @@ socials:
 
 # Footer text
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
+    Hi there! Follow us on Instagram or Bluesky, Stay connected via Discord!
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
